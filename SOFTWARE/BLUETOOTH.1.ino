@@ -1,10 +1,8 @@
 // Modulo de Bluetooth
 
-#include <SoftwareSerial.h>
-SoftwareSerial Bt serial(2,3);
+#include <SoftwareSerial.h>;
 //Conectar el HC-05 TX al pin 2 RX del arduino nano
-//Conectar el HC-05 RX al pin 3 TX del arduino UNO, por medio de un divisor de tension
-char c=' ';
+//Conectar el HC-05 RX al pin 3 TX del arduino UNO, por medio de un divisor de tension;
 asdfghj
 void setup(){
   Serial.begin(9600); //Inicializamos el puerto de serie
